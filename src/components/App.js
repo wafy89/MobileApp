@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <Router basepath="/MovieApp">
+      <Router basename="/MovieApp">
         <Home path="/" />
         <Movie path="/:movieId" />
         <NotFound default />

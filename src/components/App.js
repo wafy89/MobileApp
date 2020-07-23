@@ -10,9 +10,9 @@ const App = () => {
   return (
     <>
       <Header />
-      <Router>
-        <Home path="MovieApp/" />
-        <Movie path="/:movieId" />
+      <Router basepath="/MovieApp">
+        <Home path="/" />
+        <Movie path=":movieId" />
         <NotFound default />
       </Router>
       <GlobalStyle />

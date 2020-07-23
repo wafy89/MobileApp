@@ -13,7 +13,7 @@ import {
 const Header = () => {
   return (
     <StyledHeader className="header-content">
-      <Link to="/">
+      <Link to="/MovieApp">
         <StyledRMDBLogo src={RMDBLogo} alt="logo1" />
       </Link>
       <StyledTMDBLogo src={TMDBLogo} alt="logo2" />
